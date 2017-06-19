@@ -1,0 +1,30 @@
+{
+    "models": [
+        {
+            "id": 1,
+            "name": "Toyota"
+        },
+        {
+            "id": 2,
+            "name": "Ford"
+        },
+        {
+            "id": 3,
+            "name": "Ferrari"
+        }
+    ],
+    "cars": [
+        {
+            "id": 1,
+            "name": "Prius"
+        },
+        {
+            "id": 2,
+            "name": "Explorer"
+        },
+        {
+            "id": 3,
+            "name": "Enzo"
+        }
+    ]
+}

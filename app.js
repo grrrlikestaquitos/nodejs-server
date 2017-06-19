@@ -1,9 +1,13 @@
 const http = require('http');
 const express = require('express');
+const routes = require('./routes');
 
 const app = express();
 //Setting a port
 app.set('port', process.env.PORT || 8080);
+
+//Connect all the routes to the application
+app.use('/', routes);
 
 //Initial page
 app.get('/', (request, response) => {
