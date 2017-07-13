@@ -6,7 +6,7 @@ routes.use('/models', models);
 routes.use('/cars', cars);
 
 routes.get('/', (request, response) => {
-    response.status(200).json({ message: 'Connected!' });
+    response.status(200).json({ message: 'Welcome to my currently on going project! ColourProject!' });
 })
 
 module.exports = routes;
